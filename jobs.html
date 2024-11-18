@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaJam Coffee House Jobs</title>
+        <link rel="stylesheet" type="text/css" href="javajam.css">
+    </head>
+<body>
+    <div id="wrapper">
+    <header><h1>JavaJam Coffee House</h1></header>
+    <nav><b>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a> </li>
+        <li><a href="music.html">Music</a> </li>
+        <li><a href="jobs.html">Jobs</a></li>
+        </ul>
+    </b></nav>
+    <main>
+        <div id="herojobs"></div>
+        <h2>Jobs at JavaJam</h2>
+        <p>Want to work at JavaJam? Fill out the form
+            below to start yourapplication.
+            <br>Required
+            fields are marked with an asterisk (*).</p>
+        <form method="post"
+        action="http://webdevbasics.net/scripts/javajam8.php.">
+        </form>
+        <form>
+        <label for ="myName">*Name:</lable>
+        <input type="text" name="myName" id="myName" required>
+        <br>
+        <label for="myEmail">*Email:</label>
+        <input type="email" name="myEmail" id="myEmail" readonly>    
+        <br>
+        <label for="myExperience">*Experience:</label>
+        <textarea name="myExperience" id="myExperience"
+        rows = "2" cols ="20" required></textarea>
+        <br>
+        <input type="submit" value="apply now"
+        id="mySubmit" name="mySubmit">
+        </form>
+        
+        <div>
+            12010 Garrett Bay Road<br>
+            Ellison Bay, WI 54210<br>
+            888-555-5555<br>
+            </div>
+        <br>
+        </main>
+    <footer>
+        <small><i>copyright @2018 JavaJam Coffee house<br>
+        <a href="mailto:someone@example.com">yourfirstname@yourlastname.com</a></i></small>
+    </footer>
+    </div>
+</body>
+</html>
